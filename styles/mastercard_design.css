@@ -1,0 +1,93 @@
+body {
+	margin: 0px;
+}
+
+#container{
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#header{
+	width: 996px;
+	background-color: blue;
+	height: 75px;
+	border: 2px solid black;
+}
+
+#navbar{
+	width: 996px;
+	background-color: red;
+	height: 30px;
+	border: 2px solid black;
+}
+
+#main{
+	width: 996px;
+	background-color: green;
+	height: auto;
+	border: 2px solid black;
+}
+
+#mastercard_container{
+	margin: auto;
+ 	background-color: grey;
+	display: table;
+	padding: 20px;
+	border: solid 2px black;
+	height: auto;
+	width: 600px;
+	color: white;
+}
+
+#image{
+	margin: 0px;
+	width: 100px;
+	height: 80px;
+	border: 2px solid black;
+}
+
+#data_input{
+	margin: auto;
+	display: table;
+	padding: 15px;
+	border: solid 2px black;
+ }
+
+ .row {
+	display: table-row;
+}
+
+.labels{
+	font-weight: bolder;
+	font-size: 20px;
+	margin-left: 10px;
+	display: table-cell;
+	text-align: left;
+}
+
+.input_field{
+	margin: 10px;
+	width: 300px;
+	height: 30px;
+	display: table-cell;
+}
+
+#submit{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+}
+
+#suggestions{
+	width: 996px;
+	background-color: aqua;
+	height: 300px;
+	border: 2px solid black;
+}
+
+#footer{
+	width: 996px;
+	background-color: orange;
+	height: 75px;
+	border: 2px solid black;
+}

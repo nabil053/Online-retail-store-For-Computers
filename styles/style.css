@@ -1,0 +1,437 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*it will removes all the defaults styles applied by the browser by using upper code*/
+
+body{background: #FFFFFF; }
+
+.main_wrapper{
+width: 1020px;
+overflow-y: hidden;
+margin: auto;
+}
+
+.header_wrapper{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+width: 1000px;
+height: 160px;
+margin: auto;
+}
+
+#header_logo{float: left;
+
+	height: 150px;
+    width: 150px;}
+#header_banner{float: right;
+	height: 150px;
+	width:850px;
+}
+
+
+#shopping_cart{
+		width: 1000px;
+		height: 40px;
+		background: #F88A00;
+		color: white;
+	margin: auto;
+	}
+
+
+/*Menu Style starts*/
+
+.menubar{
+	height: 50px;
+	width: 1000px;
+	background: #3E3E3E;
+	color: white;
+	margin: auto;
+}
+#menu{
+	margin: 0;
+	padding: 0;
+	line-height: 45px;
+	float: right;
+}
+
+#menu li{
+	list-style: none; /*bullets will be removed*/
+		display: inline;
+}
+
+#menu a{
+
+	text-decoration: none; /*underline will be removed*/
+	color: white;
+	padding: 5px;
+	margin: 5px;
+	font-size: 17px;
+	font-family: sans-serif;
+	font-style: oblique;
+}
+
+#menu a:hover{Color: #0CA4EC; }
+
+/*Menu Style Ends*/
+
+#form{
+	float: right;
+	padding-right: 5px;
+	line-height: 45px;
+}
+
+
+.slide_wrapper{
+width: 1000px;
+height: 310px;
+border: 2px outset black;
+margin: auto;
+background: #FFFFFF;
+}
+
+#slide_area{
+width: 800px;
+height: 290px;
+float: left;
+background: orange;
+
+}
+#Adsbar{
+width: 195px;
+overflow-y: hidden;
+border-left: 1px groove white;
+border-top: 6px solid orange;
+background-color: #000;
+float: right;
+}
+
+#stitle{
+	text-decoration: none; /*underline will be removed*/
+	color:  white;
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+#brnds{
+	line-height: 10px;
+}
+
+#brnds li{
+	list-style: none; /*bullets will be removed*/
+}
+
+#brnds a{
+	font-style: oblique;
+	text-decoration: none; /*underline will be removed*/
+	color: #ffa500;
+	padding: 8px;
+	margin: 5px;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+#brnds a:hover{Color: white; }
+
+
+#content_area{
+	border-top: 5px solid orange;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 5px solid orange;
+width: 1000px;
+overflow-y: hidden;
+margin: auto;
+background:#fff;
+}
+
+#products_box{
+width: 1000px;
+overflow-y: auto;
+margin-top: 10px;
+margin-bottom: auto;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+
+}
+
+#single_product_homepage{
+float: left;
+margin-left: 30px;
+margin-bottom: 30px;
+padding: 5px;
+background: white;
+border-radius: 5px;
+border: 2px outset black;
+}
+
+#single_product_homepage img{
+
+	border: 2px solid black;
+}
+
+#single_product{
+	background: #C4C4C4;
+float: left;
+margin-left: 15px;
+padding: 10px;
+}
+
+#single_product img{
+
+	border: 2px solid black;
+}
+
+	/*View page Design Start*/
+#postTitle{
+	padding: 2px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px inset;
+	background: #202327;
+	color:white;
+	font-family: Verdana;
+	font-weight: bolder;
+}
+#homePageTitle{
+	color:white;
+	height: 20px;
+	width: 200px;
+	border: 1px inset;
+	background: #202327;
+	margin-bottom: 2px;
+}
+
+#postImage{
+	background: #C4C4C4;
+	float: left;
+	margin-right:30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 400px;
+	border: 2px solid black;
+}
+#detailsBox{
+	margin-left:120px;
+	border-bottom: 5px solid green;
+    background-color: lightgrey;
+	width: 480px;
+	height: auto;
+
+	float: right;
+}
+#detailsBox h1{
+	color: #fff;
+	border-bottom: 5px solid red;
+    background-color: black;
+}
+#description{
+		border: 2px solid;
+	font-family: Verdana;
+	font-weight: bolder;
+}
+#price{
+	background: #000;
+	color: #fff;
+	height: 20px;
+	width: 200px;
+	border: 1px ridge;
+	font-family: Geneva;
+}
+
+/*View Page Design End*/
+
+
+#feature_area{
+
+width: 1000px;
+margin: auto;
+}
+#banner_area{
+border-top: 6px solid orange;
+border-right:2px solid black;
+border-left: 2px solid black;
+width: 1000px;
+background: white;
+height: 200px;
+margin: auto;
+}
+
+#suggestions{
+	width: 996px;
+	background-color:#ffffff;
+	height: 300px;
+	margin: auto;
+	border: 2px solid black;
+}
+#youMayAlsoLike{
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	 border-bottom: 6px solid black;
+    background-color: lightgreen;
+	font-family: Verdana, Arial, Geneva, Arial Black;
+	font-weight: bolder;
+}
+
+
+
+#slide_product{
+
+float: left;
+margin-left: 20px;
+padding: 10px;
+
+}
+
+#slide_product img{
+
+
+	border: 2px groove black;
+    background-color: grey;
+}
+
+
+
+
+.footer_wrapper{
+width: 1000px;
+height: 100px;
+background: #000000;
+margin: auto;
+clear: both;
+}
+h3{
+	line-height: 100px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {background-color: #008CBA;border-radius: 4px;} /* Blue */
+
+/*Support starts*/
+#column {
+    float: left;
+    width: 300px;
+    padding: 10px;
+    height: 300px;
+}
+#column a{
+	text-align: left;
+	font-style: oblique;
+	text-decoration: underline; /*underline will be removed*/
+	color: white;
+	padding: 15px;
+	margin: 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+#column  li{
+	list-style: none; /*bullets will be removed*/
+}
+#column a:hover{
+	color: #ffa500;
+}
+.suppoer_box{
+	background-color: grey;
+}
+
+
+/*supports ends*/
+#news {
+    float: left;
+    height: 310px;
+
+    width: 300px;
+    padding: 10px;
+    overflow: auto;
+}
+
+#contact_us{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: white;
+	font-style: oblique;
+}
+#contact_us:hover{
+	color: green;
+
+}
+
+
+/*Hello*/
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #000;
+    color:#fff;
+    float: left;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 14px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #orange;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #000000;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 5px 5px;
+    border: 1px groove #ccc;
+    border-top: none;
+}

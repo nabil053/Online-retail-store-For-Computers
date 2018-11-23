@@ -1,0 +1,50 @@
+
+
+#register_area{
+
+width: 1000px;
+background:#00B8F8;
+margin: auto;
+}
+
+
+#data_input{
+	margin: auto;
+ 	background-color: #696969;
+	display: table;
+	padding: 15px;
+	border: solid 2px white;
+ }
+
+ .row {
+	display: table-row;
+}
+
+.labels{
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	margin-left: 10px;
+	display: table-cell;
+	text-align: left;
+}
+
+.input_field_register{
+	color: black;
+	margin: 10px;
+	width: 300px;
+	height: 30px;
+	display: table-cell;
+}
+
+#register{
+	margin-top: 30px;
+	display: table-cell;
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+}
+
+#extra_info{
+	display: table-cell;
+}
