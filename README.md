@@ -2,7 +2,7 @@
 various kinds of Computer related Products to registered users. The main purpose of this website is to provide computer related products of various kinds to the paying users, as well as provide up-to-date information regarding
 the various kind available in the website.
 
-<img align="center" src=""/>
+<img align="center" src="rs.png"/>
 
 <h3>Platform:</h3> This website was made using 
 <ul style="list-style-type:square">
